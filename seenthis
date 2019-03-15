@@ -1,0 +1,18 @@
+// ==UserScript==
+// @name        Seenthis
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://seenthis.net/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+	jQuery('#principale').css('width','1170px');
+	jQuery('#centre').css('width','869px');
+})();
+
+// agrandissement de la zone principale
